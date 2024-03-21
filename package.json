@@ -1,0 +1,33 @@
+{
+  "name": "mollitiavoluptatibus",
+  "version": "1.0.0",
+  "description": "Shared dependencies of Compass, the MongoDB extension for VSCode and MongoSH",
+  "author": "PatriciaPfeffer",
+  "engines": {
+    "node": ">=14.17.5",
+    "npm": ">=7.16.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "configs/*",
+    "scripts"
+  ],
+  "dependencies": {
+    "@mongodb-js/monorepo-tools": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/parser": "^7.22.7",
+    "depcheck": "^1.4.1",
+    "husky": "^8.0.3",
+    "lerna": "^7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KennedyQuitzon/mollitiavoluptatibus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KennedyQuitzon/mollitiavoluptatibus.git/issues"
+  },
+  "homepage": "https://github.com/KennedyQuitzon/mollitiavoluptatibus.git"
+}
